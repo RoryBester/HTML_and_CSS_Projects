@@ -1,0 +1,9 @@
+p {
+	background: tan;
+	color: white;
+	font-weight: itallic;
+	text-align: center;
+}
+p {
+  text-shadow: 2px 2px 8px #0000ff;
+}

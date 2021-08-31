@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-	     <title>Courtney & Rorys wedding page</title>
-		 <meta charset="utf-8">
+		<meta charset="utf-8">
+	    <title>Courtney & Rorys | wedding</title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
+		<link rel="stylesheet" href="./css/one_page_website_animations.css">
     </head>
 	<body>
 	
 	     <!-- Nav -->
-		 <div>
-		     <div>
-			     <ul>
+		 <div class="wrap">
+		     <div class="menu-container">
+			     <ul class="menu">
 				    <a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
-					<a href="#contact"><li>RSVP</li></a>
+					<a href="#contact"><li>RESERVATIONS</li></a>
 				 </ul>
 			 </div>
 		 </div>
 		 <!-- END NAV -->
 		 
 		 <!-- HOME -->
-		 <div is="home">
-		     <div>
-			     <div>
-				     <span>Courtney & Rory's big day!</span>
+		 <div id="home">
+		     <div class="container">
+			     <div class="text-center">
+				     <span class="head-main">Courtney & Rory's big day!</span>
 				 </div>
 			 </div>
 		 </div>
 		 <!-- END HOME -->
+
+		 <section id="gallery">
+			<div class="container">
+				<h1>Gallery</h1>
+				<div class="flex-container">
 		 
-		 <!-- VIDEO -->
-		 <div>
-		     <iframe width="1000" height="700" src="./mp4/thumb/thumbnail_1.mp4" title="Courtney & rory colage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		 </div>
-		 <!-- END VIDEO -->		     
+		             <!-- VIDEO CONTAINER 1 -->
+		            <div class="photo-container">
+						<div class="photo">
+		                    <iframe width="300" height="169" src="./mp4/thumb/thumbnail_1.mp4" title="Courtney & rory colage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>						
+						</div>
+					</div>
+		            <!-- END VIDEO CONTAINER 1 -->	
 		 
-		 <!-- GALLERY -->
-		 <section>
-		     <div id="gallery">
-			     <h1>Gallery</h1>
-				 <div>
-			 
+		            <!-- VIDEO CONTAINER 2--> 
+		            <div class="photo-container">
+					    <div class="photo">
+			                <iframe width="300" height="169" src="https://www.youtube.com/embed/X8OKEhL30H0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div> 
+			    	</div>
+					<!-- END VIDEO CONTAINER 2 -->
+
                      <!-- PHOTO CONTAINER 1 -->			 
-                     <div>
-		                 <div>
+                     <div class="photo-container">
+		                 <div class="photo">
                               <img src="./images/thumb/thumbnail_1.png" alt="barn entry">						 
-							  <div>
-				                 <h3>Click to Enlarge</h3>
+							  <div class="photo-overlay">
+				                 <h3 class="white head">Click to Enlarge</h3>
 					             <p>our wedding is 11/26/2022 save the date!</p>
 				             </div>
 			             </div>
@@ -58,35 +69,24 @@
 		 <!-- END GALLERY -->
 		 
 		 <!-- RSVP -->
-		 <section>
-		     <div id="contact">
-			     <div>
-				     <h1>RSVP</h1>
-					 <div>
+		 <section id="contact">
+		     <div class="container">
+			     <div class="heading-padding">
+				     <h1 class="heading-padding">RSVP</h1>
+					 <div class="reservation">
 					     <h2><span>join us for our special day.</span>
 						     <br>RSVP you and your plus one today!
 						 </h2>
-						 <p>
+						 <p class="rsvp-text">
 						    please provide us with you and your plus ones basic contact info
 						 </p>
-						 <div>
+						 <div class="form-rsvp">
 						     <form action="" method="post">
 							     <input class ="rsvp" type="text" value="First Name">
 						         <input class ="rsvp" type="text" value="Last Name">
 						         <input class ="rsvp" type="text" value="Phone Number">
 			                     <input class ="rsvp" type="text" value="Email Address">
-								 <div class="form-spacer">
-								 </div>
-							 </form>
-						 </div>
-					 </div>
-		         </div>
-       		 </div>
-			 <div>
-			     <div>
-				     <h2>Please enter your plus ones contact info.</h2>
-				     <div>
-					     <form action="" method="post">
+				                 <h2>Please enter your plus ones contact info.</h2>
 							     <input class ="rsvp" type="text" value="First Name">
 						         <input class ="rsvp" type="text" value="Last Name">
 						         <input class ="rsvp" type="text" value="Phone Number">
@@ -94,18 +94,23 @@
 								 <div class="form-spacer">
 								     <label class="terms">Terms and Conditions</label>
 								 </div>
-						 </form>
-					 </div>
-				 </div>
-             </div>				 
+								 <div class="submit">
+									 <input type="submit" value="submit">
+								 </div>
+						     </form>
+					     </div>
+				     </div>
+                 </div>
+			 </div>	 				 
 		 </section>
          <!-- END RSVP -->
 
          <!-- FOOTER -->
-         <div>
-             www.courtneyandrorysbigday.com &nbsp;|&nbsp &copy; 2021
+         <div id="footer">
+             www.courtneyandrorysbigday.com &nbsp;|&nbsp; &copy; 2021
          </div>
          <!-- END FOOTER-->
+
     </body>
 </html>	
 		 

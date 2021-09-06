@@ -53,14 +53,14 @@
 .photo-container {
     text-align: center;
     margin: 15px auto;
-    width: 300px;
-    height: 169px;
+    width: 600px;
+    height: 300px;
 }
 
 .photo-container img {
     max-width: 100%;
-    width: 300px;
-    height: 169px;
+    width: 600px;
+    height: 300px;
 }
 
 .photo-overlay {
